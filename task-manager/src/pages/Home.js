@@ -41,6 +41,7 @@ const Home = () => {
   const fetchTasks = async () => {
     setTasks(await getTasksList());
   };
+
   useEffect(() => {
     fetchTasks();
   }, []);

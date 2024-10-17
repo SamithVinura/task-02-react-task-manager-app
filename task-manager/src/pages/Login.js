@@ -1,7 +1,6 @@
 import { Formik, useFormik } from "formik";
 import React from "react";
 import { Button, Col, Container, Form } from "react-bootstrap";
-import { loginSchema } from "../services/ValidationSchema";
 import { login } from "../services/api";
 import { useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
@@ -15,7 +14,6 @@ const Login = () => {
 
   const loginForm = useFormik({
     initialValues: initialLoginValues,
-    validationSchema: loginSchema,
   });
 
   const handleSubmit = async () => {
