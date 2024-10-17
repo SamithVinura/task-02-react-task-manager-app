@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 
 const ProtectedRoute = ({ children }) => {
   // Check if there's a logged-in user in session storage
-  const loggedInUser = sessionStorage.getItem("loggedInUser");
+  const loggedInUser = localStorage.getItem("loggedInUser");
 
   // If there's no logged-in user, redirect to the login page
   if (!loggedInUser) {

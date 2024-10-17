@@ -1,10 +1,88 @@
 {
-    "users": [
-        {
-            "id": "1",
-            "userName": "admin",
-            "password":"admin123"
-        }
-    ],
-    "tasks": []
+  "users": [
+    {
+      "id": "1",
+      "userName": "admin",
+      "password": "admin123"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6",
+      "title": "Task 6vcvc",
+      "createdAt": "10/22/2024",
+      "assignedPerson": "samith",
+      "status": "Pending"
+    },
+    {
+      "id": "7",
+      "title": "Task 7",
+      "createdAt": "10/23/2024",
+      "assignedPerson": "samith",
+      "status": "In Progress"
+    },
+    {
+      "id": "608",
+      "title": "task 93",
+      "assignedPerson": "samith",
+      "status": "Pending",
+      "createdAt": "10/17/2024"
+    }
+  ],
+  "persons": [
+    {
+      "id": "1",
+      "name": "samith"
+    },
+    {
+      "id": "2",
+      "name": "john"
+    },
+    {
+      "id": "3",
+      "name": "alex"
+    },
+    {
+      "id": "4",
+      "name": "emma"
+    },
+    {
+      "id": "5",
+      "name": "oliver"
+    },
+    {
+      "id": "6",
+      "name": "sophia"
+    },
+    {
+      "id": "7",
+      "name": "michael"
+    },
+    {
+      "id": "8",
+      "name": "ava"
+    },
+    {
+      "id": "9",
+      "name": "james"
+    },
+    {
+      "id": "10",
+      "name": "mia"
+    }
+  ],
+  "status": [
+    {
+      "id": "1",
+      "type": "Pending"
+    },
+    {
+      "id": "2",
+      "type": "In Progress"
+    },
+    {
+      "id": "3",
+      "type": "Completed"
+    }
+  ]
 }

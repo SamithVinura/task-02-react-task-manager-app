@@ -25,13 +25,13 @@ const Login = () => {
     );
     if (userValid) {
       toast("Successfully logged in!");
-      sessionStorage.setItem("loggedInUser", JSON.stringify(userValid));
+      localStorage.setItem("loggedInUser", JSON.stringify(userValid));
       navigate("/home");
     } else {
       toast.warn("User name or password is incorret.", {
         theme: "colored",
       });
-      sessionStorage.removeItem("loggedInUser");
+      localStorage.removeItem("loggedInUser");
     }
   };
   return (
